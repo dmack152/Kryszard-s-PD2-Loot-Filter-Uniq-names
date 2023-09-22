@@ -264,6 +264,7 @@ ItemDisplay[UNI !ID 7b7]:	%NAME%%GOLD%Champion Sword - Doombringer%CONTINUE%			/
 ItemDisplay[UNI !ID 7gd]:	%NAME%%GOLD%Colossus Blade - The Grandfather%CONTINUE%			// 
 ItemDisplay[UNI !ID 7fb]:	%NAME%%GOLD%Colossus Sword - Odium%CONTINUE%				// NEW
 ItemDisplay[UNI !ID 7bs]:	%NAME%%GOLD%Conquest Sword - Hadriel's Hand%CONTINUE%			// NEW, exclusive (Diablo-Clone)
+ItemDisplay[UNI !ID 7cm]:	%NAME%%GOLD%Highland Blade - Leoric's Mithril Blade%CONTINUE%			// NEW season 8 pally unique
 // ... Daggers
 ItemDisplay[UNI !ID dgr]:	%NAME%%GOLD%Dagger - Gull%CONTINUE%					// 
 ItemDisplay[UNI !ID dir]:	%NAME%%GOLD%Dirk - The Diggler%CONTINUE%				// 
@@ -322,6 +323,7 @@ ItemDisplay[UNI !ID 7o7]:	%NAME%%GOLD%Ogre Axe - Bonehew%CONTINUE%				//
 ItemDisplay[UNI !ID 7s8]:	%NAME%%GOLD%Thresher - The Reaper's Toll%CONTINUE%			// 
 ItemDisplay[UNI !ID 7pa]:	%NAME%%GOLD%Cryptic Axe - Tomb Reaver%CONTINUE%				// 
 ItemDisplay[UNI !ID 7wc]:	%NAME%%GOLD%Giant Thresher - Stormspire%CONTINUE%			// 
+ItemDisplay[UNI !ID 7st]:	%NAME%%GOLD%Ghost Spear - Uldyssian's Awakening%CONTINUE%			// new season 8 pd2 unique
 // ... Bows
 ItemDisplay[UNI !ID sbw]:	%NAME%%GOLD%Short Bow - Pluckeye%CONTINUE%				// 
 ItemDisplay[UNI !ID hbw]:	%NAME%%GOLD%Hunter's Bow - Witherstring%CONTINUE%			// 
