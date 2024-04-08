@@ -6,6 +6,9 @@ To add this in, go to your PD2 folder and then filters --> Local. Save the .filt
 
 **When this gets updated, you must copy and paste the filter code over your previous code in your local file. Or redownload and paste it over the old file** 
 
+#1 below is this version
+#2 is Kryszards normal filter
+
 ![image](https://user-images.githubusercontent.com/25261174/235188910-e569350b-602e-454d-a1ec-5bb37268dd0d.png)
 
 ![image](https://user-images.githubusercontent.com/25261174/235166806-538eb480-f8db-4282-a9f6-dc35804b1ab7.png)
