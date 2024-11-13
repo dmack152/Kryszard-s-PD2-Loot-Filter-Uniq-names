@@ -7,7 +7,9 @@
 // my changes
 ItemDisplay[(aqv OR cqv) MAG !ID ((!AMAZON AND FILTLVL>1 AND CLVL>79) OR FILTLVL>1)]: // changed it so magic arrows don't show
 ItemDisplay[imma (FILTLVL>2)]: // HIDES ARCANE ORBS
-ItemDisplay[rin (CLVL>89 OR FILTLVL>3)]: // hides rings above character lvl 89 or filter above level 3
+ItemDisplay[yps (FILTLVL>4)]: // HIDES ARCANE ORBS
+ItemDisplay[(rin OR amu) MAG (CLVL>89 OR FILTLVL>3)]: // hides MAGIC rings above character lvl 89 or filter above level 3
+ItemDisplay[(CIRC OR SPEAR) MAG FILTLVL>3]: // hides, circs, antidotes, spears above filter level 3
 
 //------------------------------NMAG_ITEM_NOTIFICATIONS------------------------------
 
@@ -4652,7 +4654,7 @@ ItemDisplay[WAND !(wnd OR ywn OR 9wn) (((SK87>2 OR SK91>2) AND (SK95>2 OR SK68>2
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) ((SK75>2 OR SK85>2 OR SK94>2) AND SK79>2) !SOCK=1 NMAG !RW]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) ((SK75>2 OR SK85>2) AND ((SK79>1 AND SK66>1) OR (SK79>0 AND SK66>2) OR (SK79>2 AND SK66>0))) !SOCK=1 NMAG !RW]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[WAND !(wnd OR ywn OR 9wn) ((SK94>2 AND SK79>1 AND SK91>1) OR (SK94>2 AND SK79>2 AND SK91>0) OR (SK94>2 AND SK79>0 AND SK91>2)) !SOCK=1 NMAG !RW]: %DOT-D6%%NAME%{%NAME%}
-ItemDisplay[WAND !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK89>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW FILTLVL<4]: %NAME%{%NAME%}
+ItemDisplay[WAND !(wnd OR ywn OR 9wn) (SK67>2 OR SK74>2 OR SK94>2 OR SK75>2 OR SK70>2 OR SK84>2 OR SK83>2 OR SK89>2 OR SK92>2 OR SK93>2 OR SK79>2 OR SK80>2 OR SK85>2 OR SK95>2 OR SK374>2 OR SK381>2) !SOCK=1 NMAG !RW FILTLVL<6]: %NAME%{%NAME%}
 //Staves
 ItemDisplay[(6cs OR 6bs OR 6ws) (SK48>2 OR SK49>2 OR SK38>2 OR SK53>2 OR SK57>2 OR SK63>2) NMAG !RW (SOCK=0 OR SOCK=4)]: %DOT-D6%%NAME%{%NAME%}
 ItemDisplay[(8ws OR 6ws) ((SK44>2 OR SK64>2 OR SK65>2 OR SK59>2 OR SK369>2) OR ((SK44>1 OR SK64>1 OR SK59>1 OR SK369>1) AND SK65>0)) NMAG !RW (SOCK=0 OR SOCK=5)]: %DOT-D6%%NAME%{%NAME%}
